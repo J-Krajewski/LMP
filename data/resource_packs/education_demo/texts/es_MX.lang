@@ -1,0 +1,22 @@
+﻿deathScreen.quit.secondaryClient.confirmLeaveWarning=¡Gracias por jugar! Esta es una clase de muestra, por lo que no se guardará tu progreso.	#
+
+menu.quit.edu=CIERRA LA LECCIÓN	#
+menu.quit.edu.title=Salir de la clase de prueba	#
+
+start_screen.start_demo=Comenzar clase	#
+
+lesson.finished=Terminé	#
+
+lesson.end.dialog.title=¡Clase completa!	#
+lesson.end.dialog.body.title=¡FELICIDADES!	#
+lesson.end.dialog.body.wimages=Obtuviste un certificado por completar la clase. Ahora puedes ver las fotos de esta clase y guardar una copia.	#
+lesson.end.dialog.body.checkport=Mira las fotos de esta clase y guarda una copia.	#
+lesson.end.dialog.body.noimages=¡Obtuviste un certificado por completar la clase!	#
+lesson.end.dialog.button.morecoding=Más programación	#
+lesson.end.dialog.button.getcert=Obtener certificado	#
+lesson.end.dialog.button.exit=Salir de la clase	#
+lesson.end.dialog.button.export=Guardar	#
+
+lesson.end.access.imagespreview=Foto de la clase %1 de %2	#
+lesson.end.access.export=Exportar fotos de la clase	#
+progressScreen.saving=Saliendo del mundo	#

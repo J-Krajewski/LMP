@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "fnt:chuck",
+        "materials": { "default": "npc" },
+        "textures": {
+          "default": "textures/entity/chuck"
+        },
+        "geometry": {
+          "default": "geometry.chuck"
+        },
+        "render_controllers": [ "controller.render.chuck" ],
+        "spawn_egg": {
+          "texture": "chuck_item"
+        }
+      }
+    }
+  }
+  

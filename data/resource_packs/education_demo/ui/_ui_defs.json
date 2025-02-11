@@ -1,0 +1,8 @@
+{
+  // Alphabetical order please :)
+  "ui_defs": [
+    "ui/edu_pause_screen_pause_button.json",
+    "ui/lesson_complete_dialog.json",
+    "ui/tabbed_upsell_screen_edu_5_tab.json"
+  ]
+}

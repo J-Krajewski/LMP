@@ -1,0 +1,319 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "animations/location_pointer_idle.animation.json"
+        },
+        {
+            "path": "animations/location_pointer_selected.animation.json"
+        },
+        {
+            "path": "animations/map_marker.animation.json"
+        },
+        {
+            "path": "animations/ruler_idle.animation.json"
+        },
+        {
+            "path": "animations/ruler_pointer_selected.animation.json"
+        },
+        {
+            "path": "animation_controllers/map_marker.json"
+        },
+        {
+            "path": "entity/location_pointer_idle.entity.json"
+        },
+        {
+            "path": "entity/location_pointer_selected.entity.json"
+        },
+        {
+            "path": "entity/map_marker.json"
+        },
+        {
+            "path": "entity/ruler_idle.entity.json"
+        },
+        {
+            "path": "entity/ruler_pointer_selected.entity.json"
+        },
+        {
+            "path": "models/entity/location_pointer_idle.geo.json"
+        },
+        {
+            "path": "models/entity/location_pointer_selected.geo.json"
+        },
+        {
+            "path": "models/entity/map_marker.geo.json"
+        },
+        {
+            "path": "models/entity/ruler_idle.geo.json"
+        },
+        {
+            "path": "models/entity/ruler_pointer_selected.geo.json"
+        },
+        {
+            "path": "particles/editor_selected_marker.particle.json"
+        },
+        {
+            "path": "render_controllers/map_marker.json"
+        },
+        {
+            "path": "texts/bg_BG.lang"
+        },
+        {
+            "path": "texts/cs_CZ.lang"
+        },
+        {
+            "path": "texts/da_DK.lang"
+        },
+        {
+            "path": "texts/de_DE.lang"
+        },
+        {
+            "path": "texts/el_GR.lang"
+        },
+        {
+            "path": "texts/en_GB.lang"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
+        {
+            "path": "texts/es_ES.lang"
+        },
+        {
+            "path": "texts/es_MX.lang"
+        },
+        {
+            "path": "texts/fi_FI.lang"
+        },
+        {
+            "path": "texts/fr_CA.lang"
+        },
+        {
+            "path": "texts/fr_FR.lang"
+        },
+        {
+            "path": "texts/hu_HU.lang"
+        },
+        {
+            "path": "texts/id_ID.lang"
+        },
+        {
+            "path": "texts/it_IT.lang"
+        },
+        {
+            "path": "texts/ja_JP.lang"
+        },
+        {
+            "path": "texts/ko_KR.lang"
+        },
+        {
+            "path": "texts/nb_NO.lang"
+        },
+        {
+            "path": "texts/nl_NL.lang"
+        },
+        {
+            "path": "texts/pl_PL.lang"
+        },
+        {
+            "path": "texts/pt_BR.lang"
+        },
+        {
+            "path": "texts/pt_PT.lang"
+        },
+        {
+            "path": "texts/ru_RU.lang"
+        },
+        {
+            "path": "texts/sk_SK.lang"
+        },
+        {
+            "path": "texts/sv_SE.lang"
+        },
+        {
+            "path": "texts/tr_TR.lang"
+        },
+        {
+            "path": "texts/uk_UA.lang"
+        },
+        {
+            "path": "texts/zh_CN.lang"
+        },
+        {
+            "path": "texts/zh_TW.lang"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/compass/-x.png"
+        },
+        {
+            "path": "textures/compass/-z.png"
+        },
+        {
+            "path": "textures/compass/body.png"
+        },
+        {
+            "path": "textures/compass/e.png"
+        },
+        {
+            "path": "textures/compass/n.png"
+        },
+        {
+            "path": "textures/compass/s.png"
+        },
+        {
+            "path": "textures/compass/w.png"
+        },
+        {
+            "path": "textures/compass/x.png"
+        },
+        {
+            "path": "textures/compass/z.png"
+        },
+        {
+            "path": "textures/editor/block-mode.png"
+        },
+        {
+            "path": "textures/editor/Block-Palette.png"
+        },
+        {
+            "path": "textures/editor/Brush.png"
+        },
+        {
+            "path": "textures/editor/Cube.png"
+        },
+        {
+            "path": "textures/editor/Entity.png"
+        },
+        {
+            "path": "textures/editor/face-mode.png"
+        },
+        {
+            "path": "textures/editor/farm-generator.png"
+        },
+        {
+            "path": "textures/editor/Fill.png"
+        },
+        {
+            "path": "textures/editor/Flatten.png"
+        },
+        {
+            "path": "textures/editor/goto-mark.png"
+        },
+        {
+            "path": "textures/editor/Lift.png"
+        },
+        {
+            "path": "textures/editor/Line.png"
+        },
+        {
+            "path": "textures/editor/Marquee-Add.png"
+        },
+        {
+            "path": "textures/editor/Marquee-Subtract.png"
+        },
+        {
+            "path": "textures/editor/marquee.png"
+        },
+        {
+            "path": "textures/editor/mask.png"
+        },
+        {
+            "path": "textures/editor/ObjectTool.png"
+        },
+        {
+            "path": "textures/editor/Paste.png"
+        },
+        {
+            "path": "textures/editor/Playtest.png"
+        },
+        {
+            "path": "textures/editor/Repeater.png"
+        },
+        {
+            "path": "textures/editor/replace.png"
+        },
+        {
+            "path": "textures/editor/ruler-tool.png"
+        },
+        {
+            "path": "textures/editor/Select-Fill.png"
+        },
+        {
+            "path": "textures/editor/Terrain-Roughen.png"
+        },
+        {
+            "path": "textures/editor/Terrain-Smooth.png"
+        },
+        {
+            "path": "textures/editor/Terrain.png"
+        },
+        {
+            "path": "textures/editor/Tile-View.png"
+        },
+        {
+            "path": "textures/editor/Volume-Highlight-Overlay.png"
+        },
+        {
+            "path": "textures/editor/Workbench.png"
+        },
+        {
+            "path": "textures/editor/brushes/block.png"
+        },
+        {
+            "path": "textures/editor/brushes/cone.png"
+        },
+        {
+            "path": "textures/editor/brushes/cuboid.png"
+        },
+        {
+            "path": "textures/editor/brushes/cylinder.png"
+        },
+        {
+            "path": "textures/editor/brushes/ellipsoid.png"
+        },
+        {
+            "path": "textures/editor/brushes/pyramid.png"
+        },
+        {
+            "path": "textures/editor/brushes/star.png"
+        },
+        {
+            "path": "textures/entity/location_pointer_idle.png"
+        },
+        {
+            "path": "textures/entity/location_pointer_selected.png"
+        },
+        {
+            "path": "textures/entity/map_marker.png"
+        },
+        {
+            "path": "textures/entity/ruler_idle.png"
+        },
+        {
+            "path": "textures/entity/ruler_pointer_selected.png"
+        },
+        {
+            "path": "textures/particles/selection_circle.png"
+        },
+        {
+            "path": "textures/ui/CreateNewProject.png"
+        },
+        {
+            "path": "textures/ui/CreateNewWorld.png"
+        },
+        {
+            "path": "textures/ui/void.png"
+        },
+        {
+            "path": "textures/ui/world-preview-flat-fixed-pixels.png"
+        }
+    ]
+}
