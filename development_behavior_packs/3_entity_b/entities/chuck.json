@@ -23,7 +23,7 @@
         },
         "minecraft:tameable": {
           "probability": 1.0,
-          "tame_items": ["minecraft:bone"],
+          "tame_items": ["minecraft:cake"],
           "tame_event": {
             "event": "minecraft:on_tame",
             "target": "self"
