@@ -5,10 +5,10 @@
         "identifier": "fnt:chuck",
         "materials": { "default": "npc" },
         "textures": {
-          "default": "textures/entity/chuck"
+          "default": "textures/entity/allay"
         },
         "geometry": {
-          "default": "geometry.chuck"
+          "default": "geometry.allay"
         },
         "render_controllers": [ "controller.render.chuck" ],
         "spawn_egg": {
