@@ -5,7 +5,7 @@
         "identifier": "fnt:chuck",
         "materials": { "default": "npc" },
         "textures": {
-          "default": "textures/entity/allay"
+          "default": "textures/entity/fairy"
         },
         "geometry": {
           "default": "geometry.allay"
