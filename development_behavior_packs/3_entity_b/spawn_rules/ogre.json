@@ -23,7 +23,10 @@
         },
     
         "minecraft:biome_filter": {
-          "test": "has_biome_tag", "operator":"==", "value": "animal"
+          "test": "has_biome_tag", "operator":"==", "value": "swamp"
+        },
+        "minecraft:biome_filter_2": {
+          "test": "has_biome_tag", "operator":"==", "value": "dark_forest"
         }
       }
     ]
