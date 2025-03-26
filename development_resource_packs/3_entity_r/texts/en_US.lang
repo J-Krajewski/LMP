@@ -1,5 +1,0 @@
-pack.name=§aEntity Basics§r [R]
-pack.description=Creating a basic entity
-
-item.spawn_egg.entity.fnt:chuck.name=Chuck
-entity.fnt:chuck.name=Chuck
