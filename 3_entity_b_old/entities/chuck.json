@@ -1,0 +1,138 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "fnt:chuck",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "fnt:chuck_wild": {
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 3,
+          "entity_types": [
+            {
+              "filters": { "test": "is_family", "subject": "other", "value": "llama" },
+              "max_dist": 24,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.5
+            }
+          ],
+          "probability_per_strength": 0.14
+        },
+        "minecraft:tameable": {
+          "probability": 1.0,
+          "tame_items": ["minecraft:cake"],
+          "tame_event": {
+            "event": "minecraft:on_tame",
+            "target": "self"
+          }
+        }
+      },
+      "fnt:chuck_tame": {
+        "minecraft:is_tamed": {},
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:behavior.follow_owner": {
+          "priority": 6,
+          "speed_multiplier": 1.0,
+          "start_distance": 4,
+          "stop_distance": 2
+        },
+        "minecraft:attack": {
+          "damage": 4
+        },
+        "minecraft:behavior.random_look_around": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["npc", "mob"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 2.0
+      },
+      "minecraft:health": {
+        "max": 20,
+        "value": 20
+      },
+      "minecraft:behavior.look_at_player": {
+        "probability": 0.3
+      },
+      "minecraft:behavior.look_at_entity": {
+        "probability": 0.3
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:persistent": {},
+      "minecraft:physics": {},
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "fnt:chuck_wild"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "remove": {},
+            "add": {
+              "component_groups": [
+                "fnt:chuck_wild"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:on_tame": {
+        "remove": {
+          "component_groups": [
+            "fnt:chuck_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "fnt:chuck_tame"
+          ]
+        }
+      }
+    }
+  }
+}
